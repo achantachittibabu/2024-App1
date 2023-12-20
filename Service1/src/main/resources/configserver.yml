@@ -1,3 +1,12 @@
 
 server:
   port: 9296
+spring:
+  application:
+    name: Config-Server
+spring:
+  cloud:
+    config:
+      git: 
+        url: https://github.com/achantachittibabu/2024-App2
+        clone-on-start: true
