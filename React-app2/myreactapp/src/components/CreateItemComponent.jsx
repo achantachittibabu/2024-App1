@@ -53,7 +53,7 @@ class CreateItemComponent extends Component {
 
     render() {
         return (
-            <div>
+            <div algin="center">
                 <div className="container p-5">
                     <div className="row">
                         <div className="card col-md-6 offset-md-3">
@@ -61,12 +61,12 @@ class CreateItemComponent extends Component {
                             <div className="card-body">
                                 <form action="">
                                     <div className="form-group mb-3">
-                                        <label>Item Name</label>
+                                        <label>Plan Name</label>
                                         <input type="text" placeholder='Item Name' name='name' className='form-control'
                                         value={this.state.name} onChange={this.changeItemNameHandler} />
                                     </div>
                                     <div className="form-group mb-3">
-                                        <label>Item Description</label>
+                                        <label>Plan Description</label>
                                         <input type="text" placeholder='Item Description' name='description' className='form-control'
                                         value={this.state.description} onChange={this.changeItemDescriptionHandler} />
                                     </div>

@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+
+
+    .button {
+        background-color: aqua;
+        border: none;
+        color: rgb(86, 77, 223);
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 1px 2px;
+        cursor: pointer;
+      }
+    }
